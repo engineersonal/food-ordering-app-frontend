@@ -143,7 +143,6 @@ const styles = (theme) => ({
   couponInput: {
     // Style for the input coupon
     width: "150px",
-    background: "#ffffb3",
     "@media(min-width:1300px)": {
       width: "200px",
     },
@@ -1082,6 +1081,7 @@ class Checkout extends Component {
                     <FilledInput
                       id="coupon"
                       className={classes.couponInput}
+                      color={"secondary"}
                       value={this.state.couponName}
                       onChange={this.inputCouponNameChangeHandler}
                       placeholder="Ex: FLAT30"
