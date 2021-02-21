@@ -143,6 +143,7 @@ const styles = (theme) => ({
   couponInput: {
     // Style for the input coupon
     width: "150px",
+    background: "#ffffb3",
     "@media(min-width:1300px)": {
       width: "200px",
     },
