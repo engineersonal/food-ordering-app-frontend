@@ -71,13 +71,13 @@ const styles = (theme) => ({
     //Style for the Title in the Card
     "font-size": "25px",
     "@media (min-width: 1300px)": {
-      "font-size": "40px",
+      "font-size": "35px",
     },
     "@media (min-width: 960px) and (max-width:1300px)": {
       "font-size": "30px",
     },
     "@media (max-width: 960px)": {
-      "font-size": "40px",
+      "font-size": "30px",
     },
   },
   categories: {
