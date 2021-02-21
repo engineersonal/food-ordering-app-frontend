@@ -142,9 +142,9 @@ const styles = (theme) => ({
   },
   couponInput: {
     // Style for the input coupon
-    width: "200px",
+    width: "150px",
     "@media(min-width:1300px)": {
-      width: "250px",
+      width: "200px",
     },
     "@media(max-width:600px)": {
       width: "200px",
